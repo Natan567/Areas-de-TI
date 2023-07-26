@@ -1,0 +1,38 @@
+@media (max-width: 1120px){
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-profissoes{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-profissoes .profissoes{
+        margin-top: 37px;
+    }
+
+    .selecao-de-profissoes .profissoes .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-profissoes .lista-de-profissoes{
+        gap: 9px;
+    }
+
+    .selecao-de-profissoes .profissoes img{
+        width: 80px;
+    }
+
+    .profissao-selecionada .profissao-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .profissao-selecionada .descricao-profissao{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
